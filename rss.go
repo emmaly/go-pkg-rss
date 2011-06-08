@@ -2,7 +2,7 @@ package feeder
 
 import (
 	"os"
-	xmlx "github.com/jteeuwen/go-pkg-xmlx"
+	xmlx "github.com/dustywilson/go-pkg-xmlx"
 )
 
 func (this *Feed) readRss2(doc *xmlx.Document) (err os.Error) {

@@ -1,6 +1,6 @@
 /*
  Author: jim teeuwen <jimteeuwen@gmail.com>
- Dependencies: go-pkg-xmlx (http://github.com/jteeuwen/go-pkg-xmlx)
+ Dependencies: go-pkg-xmlx (http://github.com/dustywilson/go-pkg-xmlx)
 
  This package allows us to fetch Rss and Atom feeds from the internet.
  They are parsed into an object tree which is a hyvrid of both the RSS and Atom
@@ -28,7 +28,7 @@ package feeder
 import (
 	"os"
 	"time"
-	xmlx "github.com/jteeuwen/go-pkg-xmlx"
+	xmlx "github.com/dustywilson/go-pkg-xmlx"
 	"fmt"
 	"strconv"
 	"strings"

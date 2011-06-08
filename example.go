@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"os"
 	"time"
-	rss "github.com/jteeuwen/go-pkg-rss"
+	rss "github.com/dustywilson/go-pkg-rss"
 )
 
 func main() {
